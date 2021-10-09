@@ -1,0 +1,3 @@
+# A* Search
+A website made using p5.js that runs and visualizes [A* search](https://en.wikipedia.org/wiki/A*_search_algorithm). A* is a heuristic pathfinding algorithm that uses the function `f(n) = g(n) + h(n)` to determine the cost of each node, where `g(n)` is the current cost and `h(n)` is the estimated cost left to reach the goal. 
+`h(n)` is the heuristic part of the function that is calculated using [Manhattan distance](https://cdn-images-1.medium.com/max/800/1*-xXnL0liqSl-flWgCTFbiw.png). These calculations are recursively repeated to find the next best node to travel to until the most optimal path is found.
