@@ -13,3 +13,9 @@ The A* search can run on a grid, where a random amount of cells are generated to
 The program can also run in a maze, which will generate if the user presses the maze button.
 
 ![UI A star image](/images/maze.png)
+
+### Visualizer
+The program can also vizualize the pathfinding algorithm for both the maze and grid.
+
+https://user-images.githubusercontent.com/81705278/136673290-82baabc0-39a4-42ad-b7fe-666b17528c49.mp4
+
