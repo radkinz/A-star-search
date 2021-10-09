@@ -73,7 +73,7 @@ function NewGrid() {
     for (let j = 0; j < row; j++) {
       cell[i][j] = new Cell(i * width / col, j * height / row);
       //assign on or off
-      if (random(1) < 0.20 && i < col - 1 && j < row - 1) {
+      if (random(1) < 0.30 && i < col-1 && j < row) {
         cell[i][j].on = false;
       }
 
